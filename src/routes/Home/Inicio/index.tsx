@@ -3,9 +3,14 @@ export default function Inicio() {
 
   return (
     <main>
-      <div className='bemVindo container '>
-        Seja bem-vindo
-      </div>
+      <section className='container'>
+
+        <h2 className='bemVindo section-title mt-20'>
+          Bem Vindos!
+        </h2>
+
+      </section>
+
     </main>
   )
 }

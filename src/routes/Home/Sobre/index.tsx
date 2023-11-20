@@ -3,9 +3,14 @@ export default function Sobre() {
 
   return (
     <main>
-      <h2>
-        sobre
-      </h2>
+      <section className='container'>
+
+        <h2 className='sobre section-title mt-20'>
+          Sobre
+        </h2>
+
+      </section>
+
     </main>
   )
 }

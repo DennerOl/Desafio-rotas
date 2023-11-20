@@ -1,14 +1,24 @@
 header {
-  height: 70px;
+
   background-color: var(--color-bg-secondary);
   color: var(--color-font-primary);
+
+
+}
+
+.header2 {
   display: flex;
+  text-align: center;
   align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding-top: 26px;
+  padding-bottom: 25px;
 
 }
 
 .menu-item {
-  margin-left: 20px;
+  padding-right: 26px;
   font-size: 16px;
 }
 
@@ -19,4 +29,10 @@ header {
 img {
   width: 30px;
   height: 30px;
+
+}
+
+.navbar {
+  align-items: center;
+  text-align: center;
 }

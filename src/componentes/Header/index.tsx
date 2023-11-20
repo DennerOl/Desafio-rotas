@@ -6,7 +6,7 @@ export default function Header() {
 
   return (
     <header>
-      <div className='container'>
+      <div className='header2 container'>
         <div>
           <nav className='navbar'>
 
@@ -22,7 +22,7 @@ export default function Header() {
           </nav>
         </div>
 
-        <div>
+        <div className='iconecasa'>
           <Link to="/inicio">
             <img src={casa} alt="casinha" />
           </Link>

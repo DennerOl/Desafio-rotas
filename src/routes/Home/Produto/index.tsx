@@ -3,9 +3,14 @@ export default function Produto() {
 
   return (
     <main>
-      <h2>
-        produto
-      </h2>
+      <section className='container'>
+
+        <h2 className='produto section-title mt-20'>
+          Produto
+        </h2>
+
+      </section>
+
     </main>
   )
 }

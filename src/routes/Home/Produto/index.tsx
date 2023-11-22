@@ -1,16 +1,21 @@
+
+
+import { Outlet } from 'react-router-dom';
+import ProductMenu from '../../../componentes/MenuProdutos';
 import './styles.css'
+
+
 export default function Produto() {
+
 
   return (
     <main>
       <section className='container'>
 
-        <h2 className='produto section-title mt-20'>
-          Produto
-        </h2>
+        <ProductMenu />
 
       </section>
-
+      <Outlet />
     </main>
   )
 }

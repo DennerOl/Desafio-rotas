@@ -1,30 +1,29 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este foi mais um desafio em React + TypeScript + Vite onde tive que entregar um projeto ReactJS conforme design Figma abaixo
 
-Currently, two official plugins are available:
+https://www.figma.com/file/5cPiXC5sBQc4B4wIZKlI3i/Desafio-Rotas-React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Os Critérios de correção foram:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1) Três links da barra de navegação superior funcionando (Início, Produtos, Sobre nós).
 
-- Configure the top-level `parserOptions` property like this:
+2) Rota ativa da barra superior destacada na barra superior.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3) Link "home" (casinha no canto superior direito) funcionando.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+4) Três links da barra de navegação de produtos funcionando (Computadores, Eletrônicos, Livros).
+
+5) Rota ativa da barra de navegação de produtos destacada.
+
+6) Página "Não encontrado" deve aparecer para qualquer rota não configurada.
+
+7) As rotas, bem como as pastas dos componentes, devem seguir a seguinte hierarquia:
+- "/"
+- "home"
+- "products/"
+- "computers"
+- "electronics"
+- "books"
+- "about"

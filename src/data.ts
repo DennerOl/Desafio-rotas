@@ -6,56 +6,58 @@ const produtos = [
   },
   {
     number: 2,
-    name: "computador1"
+    name: "computador2"
   },
   {
     number: 3,
-    name: "computador1"
+    name: "computador3"
   },
 
 
 ];
-/*
 
-const eletronicos = [
+
+const eltr = [
   {
     number: 1,
     name: "eletronicos1"
   },
   {
     number: 2,
-    name: "eletronicos1"
+    name: "eletronicos2"
   },
   {
     number: 3,
-    name: "eletronicos1"
+    name: "eletronicos3"
   },
 
 
 ];
 
-const livors = [
+const livros = [
   {
     number: 1,
     name: "livros1"
   },
   {
     number: 2,
-    name: "livros1"
+    name: "livros2"
   },
   {
     number: 3,
-    name: "livros1"
+    name: "livros3"
   },
 
 
 ];
-*/
+
 export function getProducts() {
   return produtos;
 }
-
-export function getProduto(number: number) {
-  return produtos.find((produto) => produto.number === number
-  );
+export function getEletro() {
+  return eltr;
 }
+export function getLivros() {
+  return livros;
+}
+

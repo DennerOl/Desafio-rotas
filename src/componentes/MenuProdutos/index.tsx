@@ -8,17 +8,17 @@ export default function ProductMenu() {
       <div className='cardNavLink'>
         <nav className='navLinkContainer'>
           <div className='product-menu-item'>
-            <NavLink to={'/produto/computadores'} className={({ isActive }) => isActive ? "menu-active" : "menu-item"} >
+            <NavLink to={'/produto/computadores'} className={({ isActive }) => isActive ? "menu-active" : "menu-item-produto"} >
               Computadores
             </NavLink>
           </div>
           <div className='product-menu-item'>
-            <NavLink to={'/produto/eletronicos'} className={({ isActive }) => isActive ? "menu-active" : "menu-item"} >
+            <NavLink to={'/produto/eletronicos'} className={({ isActive }) => isActive ? "menu-active" : "menu-item-produto"} >
               Eletrônicos
             </NavLink>
           </div>
-          <div>
-            <NavLink to={'/produto/livros'} className={({ isActive }) => isActive ? "menu-active" : "menu-item"} >
+          <div className='product-menu-item'>
+            <NavLink to={'/produto/livros'} className={({ isActive }) => isActive ? "menu-active" : "menu-item-produto"} >
               Livros
             </NavLink>
           </div>

@@ -1,12 +1,12 @@
 import './styles.css'
-export default function Sobre() {
+export default function NotFound() {
 
   return (
     <main>
       <section className='container'>
 
-        <h2 className='sobre section-title mt-20'>
-          Sobre nós
+        <h2 className='notFound section-title mt-20'>
+          Não encontrado!
         </h2>
 
       </section>

@@ -1,5 +1,3 @@
-
-
 import { Outlet } from 'react-router-dom';
 import ProductMenu from '../../../componentes/MenuProdutos';
 import './styles.css'

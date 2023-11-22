@@ -1,27 +1,27 @@
 import { Outlet } from 'react-router-dom';
-import { getProducts } from '../../../../data';
+import { getLivros } from '../../../../data';
 import { Link } from 'react-router-dom';
 import './styles.css'
 
 
 
 
-export default function Computadores() {
+export default function Livros() {
 
-  const produto = getProducts()
+  const livro = getLivros()
   return (
     <>
 
       {
-        produto && <main >
+        livro && <main >
           <section className="computadores container" >
             <div  >
-              {produto.map((prods) => (
+              {livro.map((livro) => (
                 <Link className='link-itens'
-                  to={`/produto/${prods.number}`}
-                  key={prods.number}
+                  to={`/produto/${livro.number}`}
+                  key={livro.number}
                 >
-                  {prods.name}
+                  {livro.name}
                 </Link>
               ))}
             </div>

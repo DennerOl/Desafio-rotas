@@ -1,27 +1,27 @@
 import { Outlet } from 'react-router-dom';
-import { getProducts } from '../../../../data';
+import { getEletro } from '../../../../data';
 import { Link } from 'react-router-dom';
 import './styles.css'
 
 
 
 
-export default function Computadores() {
+export default function Eletro() {
 
-  const produto = getProducts()
+  const eletro = getEletro()
   return (
     <>
 
       {
-        produto && <main >
+        eletro && <main >
           <section className="computadores container" >
             <div  >
-              {produto.map((prods) => (
+              {eletro.map((eletroId) => (
                 <Link className='link-itens'
-                  to={`/produto/${prods.number}`}
-                  key={prods.number}
+                  to={`/produto/${eletroId.number}`}
+                  key={eletroId.number}
                 >
-                  {prods.name}
+                  {eletroId.name}
                 </Link>
               ))}
             </div>

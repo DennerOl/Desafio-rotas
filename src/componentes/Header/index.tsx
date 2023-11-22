@@ -10,7 +10,7 @@ export default function Header() {
         <div>
           <nav className='navbar'>
 
-            <NavLink to="/" className={({ isActive }) => isActive ? "menu-item menu-active" : "menu-item"}>
+            <NavLink to="/inicio" className={({ isActive }) => isActive ? "menu-item menu-active " : "menu-item"}>
               Início
             </NavLink>
             <NavLink to="/produto" className={({ isActive }) => isActive ? "menu-item menu-active" : "menu-item"}>
